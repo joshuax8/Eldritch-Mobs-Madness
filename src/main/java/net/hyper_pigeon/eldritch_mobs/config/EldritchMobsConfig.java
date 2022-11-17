@@ -10,11 +10,11 @@ import static net.hyper_pigeon.eldritch_mobs.EldritchMobsMod.MOD_ID;
 @Config(name = MOD_ID)
 public class EldritchMobsConfig implements ConfigData {
 
-    public double EliteSpawnRates = 0.01;
+    public double EliteSpawnRates = 0.5;
 
-    public double UltraSpawnRates = 0.001;
+    public double UltraSpawnRates = 0.25;
 
-    public double EldritchSpawnRates = 0.0001;
+    public double EldritchSpawnRates = 0.1;
 
     public float EliteHealthMultiplier = 4;
     public float UltraHealthMultiplier = 6;
